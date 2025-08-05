@@ -1,0 +1,53 @@
+{
+  "name": "footage-flow-mvp",
+  "version": "1.0.0",
+  "description": "AI-powered video management and story generation platform",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm run setup:backend && npm run setup:frontend",
+    "setup:backend": "cd backend && npm install && npx prisma db push && npx prisma generate",
+    "setup:frontend": "cd frontend && npm install",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start": "npm run dev",
+    "test": "node test-api.js",
+    "test:backend": "cd backend && npm test",
+    "test:frontend": "cd frontend && npm test",
+    "build": "npm run build:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "clean": "npm run clean:backend && npm run clean:frontend",
+    "clean:backend": "cd backend && rm -rf node_modules",
+    "clean:frontend": "cd frontend && rm -rf node_modules",
+    "reset": "npm run clean && npm run setup"
+  },
+  "keywords": [
+    "video",
+    "ai",
+    "transcription",
+    "story-generation",
+    "react",
+    "nodejs",
+    "prisma",
+    "cloudinary",
+    "openai"
+  ],
+  "author": "FootageFlow Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/footage-flow-mvp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/footage-flow-mvp/issues"
+  },
+  "homepage": "https://github.com/your-username/footage-flow-mvp#readme"
+}
