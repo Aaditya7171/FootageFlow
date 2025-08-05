@@ -69,22 +69,6 @@ Find any moment in your videos instantly. Search by transcript content, tags, or
 - npm 8+
 - Modern web browser (Chrome, Firefox, Safari, Edge)
 
-### Option 1: Automated Setup (Recommended)
-
-**Windows:**
-```bash
-# Run the complete setup and test script
-start-and-test.bat
-```
-
-This will:
-- ✅ Check prerequisites
-- 📦 Install all dependencies
-- 🗄️ Setup database
-- 🚀 Start both servers
-- 🧪 Run API tests
-- 🌐 Open browser automatically
-
 ## 📡 API Endpoints
 
 ### Authentication
