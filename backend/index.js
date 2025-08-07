@@ -29,6 +29,8 @@ app.use(cors({
       'http://localhost:5174',
       'http://127.0.0.1:5173',
       'http://127.0.0.1:5174',
+      'https://footage-flow.vercel.app',
+      'https://footage-flow-git-master-aditya-tomar-s-projects.vercel.app',
       'https://accounts.google.com',
       'https://oauth2.googleapis.com'
     ];

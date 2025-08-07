@@ -265,7 +265,7 @@ class EmailService {
             </div>
             
             <div class="cta">
-              <a href="http://localhost:5173/dashboard" class="button">Start Creating Now →</a>
+              <a href="${process.env.REACT_APP_FRONTEND_URL || window.location.origin}/dashboard" class="button">Start Creating Now →</a>
             </div>
             
             <div class="message">
