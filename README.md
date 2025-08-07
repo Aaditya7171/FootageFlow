@@ -2,7 +2,7 @@
 
 Transform your videos with artificial intelligence. FootageFlow is a cutting-edge video management platform that uses advanced AI to transcribe, analyze, and create compelling stories from your video content.
 
-🌐 **Live Demo**: [footage-flow.vercel.app](Coming Soon...)
+🌐 **Live Demo**: https://footage-flow-zeta.vercel.app
 
 ![FootageFlow Interface](frontend/public/footage-flow.png)
 
@@ -108,7 +108,7 @@ Find any moment in your videos instantly. Search by transcript content, tags, or
 ## 🎯 How to Use FootageFlow
 
 ### **Getting Started**
-1. **Visit**: [footage-flow.vercel.app](Coming Soon...)
+1. **Visit**: https://footage-flow-zeta.vercel.app
 2. **Sign In**: Use your Google account for instant access
 3. **Start Creating**: Upload your first video and watch the magic happen!
 
