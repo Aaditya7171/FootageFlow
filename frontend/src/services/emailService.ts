@@ -16,8 +16,8 @@ const EMAILJS_CONFIG = {
 emailjs.init(EMAILJS_CONFIG.publicKey);
 
 interface EmailTemplateParams {
-  to_email: string;
-  to_name: string;
+  to_email?: string;
+  to_name?: string;
   from_name: string;
   [key: string]: any;
 }
@@ -100,7 +100,8 @@ class EmailService {
   async sendFeedback(userEmail: string, userName: string, rating: number, message: string): Promise<boolean> {
     try {
       const templateParams: EmailTemplateParams = {
-        email: 'toadityavijay@gmail.com', // Your feedback recipient email
+        to_email: 'toadityavijay@gmail.com', // Your feedback recipient email
+        to_name: 'FootageFlow Team',
         user_email: userEmail,
         user_name: userName || 'Anonymous',
         rating: rating.toString(),
