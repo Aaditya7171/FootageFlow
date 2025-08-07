@@ -1,0 +1,26 @@
+{
+  "short_name": "FootageFlow",
+  "name": "FootageFlow - AI Video Management",
+  "icons": [
+    {
+      "src": "footage-flow.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "footage-flow.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "footage-flow.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#FF5A5F",
+  "background_color": "#FFFFFF",
+  "description": "AI-powered video management and story generation platform"
+}
